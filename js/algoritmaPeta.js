@@ -303,7 +303,7 @@ function createMarker(latlng, label, html) {
         position: latlng,
         map: map,
         title: label,
-		icon: 'motorcycle.png',
+		icon: 'assets/icon/truck.png',
         zIndex: Math.round(latlng.lat()*-100000)<<5
         });
         marker.myname = label;
