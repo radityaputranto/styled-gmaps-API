@@ -1,0 +1,126 @@
+body{
+	background-color: #283D6A;
+	color: 	white;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#sidebar {
+    width: 25%;
+    position: fixed;
+    height: 100%;
+    background-color: #283D6A;
+    color :white;
+    margin-top: 0px;
+}
+
+#sidebar header {
+    margin-left: 48px;
+}
+
+#sidebar header h3{
+    font-size: 36px;
+}
+
+#sidebar > .sidebar-options {
+    margin-top: 25px;
+}
+
+
+#map {
+    height: 600px;
+    width: 75%;
+    float: right;
+}
+#map img {
+    max-width: none;
+}
+.tombol_tema{
+	background-color: rgba(0,0,0,0);
+	color: white;
+	border: solid #ffffff 2px;
+	border-radius: 10px;
+	padding: 5px;
+	width: 80px;
+
+
+}
+.siang:hover{
+	background-color: white;
+	color: #55575A;
+}
+.malam:hover{
+	background-color: #55575A ;
+	border: solid #55575A 2px;
+}
+.malam{
+	margin-left: 20px;
+}
+.tombol_submit {
+	margin-top: 15px;
+	margin-bottom: 5px;
+	padding: 3px;
+    background-color: #01EC52;
+    border: solid 2px #01EC52;
+    color: white;
+    border-radius: 10px;
+    width: 220px;
+    font-size: 18px;
+}
+.tombol_submit:hover{
+	box-shadow: 2px 5px 40px #01EC52;
+}
+input{
+	width: 220px;
+	border-radius: 10px;
+	height: 30px;
+}
+
+
+
+/*team*/
+#team{
+	 width: 75%;
+    float: right;
+}
+#footer{
+	 width: 75%;
+    float: right;	
+}
+.garis{
+  width: 150px;
+  background-color: #262626;
+  height: 3px;
+}
+.judul{
+  /*background-color: #ffffff;*/
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+}
+.itemProfil{
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.gambarProfil{
+  border-radius: 50px;
+  width: 100px;
+  height: 100px;
+}
+
+
+/*FOOTER*/
+footer{
+  background:#262626;
+  color: #fff;
+  padding-top: 20px;
+  
+}
+footer a{
+  color: #fff;
+}
+footer a:hover{
+  color: #e3e3e3;
+}
