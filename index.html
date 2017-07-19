@@ -12,54 +12,62 @@
     </head>
     <body onload="initialize()">
 
-       <aside id="sidebar" class="wet-asphalt">
-        <header>
-        <br><br>
-            <h3 >Greedy <br>Algorithm</h3>
-        </header>
+    <div class="row">
+
+    <!-- bagian SideBar -->
+        <div class="col-lg-3 col-md-4 col-sm-4">
+                <!-- <aside id="sidebar" class="wet-asphalt"> -->
+                <aside id="sidebar">
+                    <header>
+                    <br><br>
+                        <h3 >Greedy <br>Algorithm</h3>
+                    </header>
+                    
+
+                    <ul class="sidebar-options">
+                        
+                        <li>
+                            <h5>Input jumlah Marker</h5>
+                            <input type="number" name="marker" class="input jumlah">
+                        </li>
+                        <li>
+                            <h5>Input jumlah Bobot</h5>
+                            <input type="number" name="Bobot" class="input jumlah">
+                        </li>
+
+                        <li>
+                          <div id="tools">
+                            <button type="" class="tombol_submit" onclick="setRoutes();"> Proses </button> 
+                          </div>
+                        </li>
+
+            <!-- 
+                        <li class="align-content-center">
+                            <h5>Tema Peta</h5>
+                            <button type="button" class=" tombol_tema siang"> Siang </button> 
+                            <button type="button" class=" tombol_tema malam"> Malam </button> 
+                            
+                        </li>
+             -->           
+                    </ul>
+                    
+
+                    
+                </aside>
+
+
+        </div><!-- akhir bagian sideBar -->
+
+    <!-- bagian Map  -->
+        <div class="col-lg-9 col-md-8 col-sm-8">
+            <!-- Google Maps -->
+                <div id="map"></div>
+
+        </div><!-- akhir bagian map -->
         
+    </div><!-- akhir row  -->
 
-        <ul class="sidebar-options">
-            
-            <li>
-                <h5>Input jumlah Marker</h5>
-                <input type="number" name="marker" class="input jumlah">
-            </li>
-            <li>
-                <h5>Input jumlah Bobot</h5>
-                <input type="number" name="Bobot" class="input jumlah">
-            </li>
-
-            <li>
-              <div id="tools">
-                <button type="" class="tombol_submit" onclick="setRoutes();"> Proses </button> 
-              </div>
-            </li>
-
-<!-- 
-            <li class="align-content-center">
-                <h5>Tema Peta</h5>
-                <button type="button" class=" tombol_tema siang"> Siang </button> 
-                <button type="button" class=" tombol_tema malam"> Malam </button> 
-                
-            </li>
- -->           
-        </ul>
-        
-
-        
-    </aside>
-        
-    
-        <!-- Google Maps -->
-        <div id="map"></div>
-
-    
-
-
-
-        <!-- TEAM  -->
-        <div class="container" id="team">
+    <div class="container" id="team">
         <div class="row judul">
             <div class="col-lg-12">
             <center><h2>TEAM</h2></center>
@@ -69,27 +77,25 @@
         </div>
         <div class="row team " id="">
             
-
-            <div class="col-lg-6 itemProfil">
+            <div class="col-md-6 col-lg-3 itemProfil">
                 <center><img src="assets/images/img_1.jpg" class="gambarProfil"></center>
                 <center><h4 class="">Aliffiando</h4></center>
-                <center><h5 class="abu">210315143 <br> 2D3 INFORMATIKA B</h5></center>
+                <center><h5 class="abu">210315145 <br> 2D3 INFORMATIKA B</h5></center>
             </div>
 
-            <div class="col-lg-6 itemProfil">
+            <div class="col-md-6 col-lg-3 itemProfil">
                  <center><img src="assets/images/img_1.jpg" class="gambarProfil"></center>
                 <center><h4 class="">Arinda Restu Nandatiko </h4></center>
                 <center><h5 class="abu">2103151033 <br> 2D3 INFORMATIKA B</h5></center>
             </div>
-        </div>
-        <div class="row team " id="">
-            <div class="col-md-6 col-lg-6 itemProfil">
+            
+            <div class="col-md-6 col-lg-3 itemProfil">
                 <center><img src="assets/images/raditya.jpg" class="gambarProfil"></center>
                 <center><h4 class="">Raditya Putranto</h4></center>
                 <center><h5 class="abu">210315160 <br> 2D3 INFORMATIKA B</h5></center>
             </div>
 
-            <div class="col-md-6 col-lg-6 itemProfil">
+            <div class="col-md-6 col-lg-3 itemProfil">
                  <center><img src="assets/images/sherly.jpg" class="gambarProfil"></center>
                 <center><h4 class="">Sherly Febrina Luhukay</h4></center>
                 <center><h5 class="abu">2103151035 <br> 2D3 INFORMATIKA B</h5></center>
@@ -97,12 +103,15 @@
         </div>
         </div>
             <hr>
+       
+        
+    
+        
 
-        <!-- Footer -->
+
   
 
-    </div>
-    <!-- /.container -->
+
 
     
     

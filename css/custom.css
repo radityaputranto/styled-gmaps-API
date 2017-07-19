@@ -8,9 +8,9 @@ ul {
 }
 
 #sidebar {
-    width: 25%;
+    /*width: 25%;
     position: fixed;
-    height: 100%;
+    height: 100%;*/
     background-color: #283D6A;
     color :white;
     margin-top: 0px;
@@ -31,8 +31,8 @@ ul {
 
 #map {
     height: 600px;
-    width: 75%;
-    float: right;
+    width: 100%;
+/*    float: right;*/
 }
 #map img {
     max-width: none;
@@ -81,14 +81,14 @@ input{
 
 
 /*team*/
-#team{
+/*#team{
 	 width: 75%;
     float: right;
 }
 #footer{
 	 width: 75%;
     float: right;	
-}
+}*/
 .garis{
   width: 150px;
   background-color: #262626;
